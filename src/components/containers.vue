@@ -128,7 +128,7 @@ defineOptions({
   name: "Containers",
 })
 import {onMounted, ref} from "vue";
-import {del, get, post, put} from "@/api/request"
+import {del, get, put} from "@/api/request"
 import {ElMessage, ElMessageBox} from "element-plus";
 // 用于存放容器表格数据
 const containerData = ref();
